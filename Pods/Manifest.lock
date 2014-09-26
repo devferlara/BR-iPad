@@ -1,0 +1,39 @@
+PODS:
+  - APAsyncDictionary (0.0.6)
+  - APSmartStorage (0.1.3):
+    - APAsyncDictionary (= 0.0.6)
+    - MD5Digest (= 0.1.0)
+  - MD5Digest (0.1.0)
+  - MMPickerView (0.0.1)
+  - MZAppearance (1.1.3)
+  - MZFormSheetController (2.4.1):
+    - MZAppearance (~> 1.1.3)
+    - MZFormSheetController/Core
+  - MZFormSheetController/Core (2.4.1):
+    - MZAppearance (~> 1.1.3)
+  - RNActivityView (0.0.2)
+  - SALQuickTutorial (0.2.1):
+    - MZFormSheetController (~> 2.3)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core
+  - SDWebImage/Core (3.7.1)
+
+DEPENDENCIES:
+  - APSmartStorage
+  - MMPickerView (~> 0.0.1)
+  - RNActivityView
+  - SALQuickTutorial (~> 0.2)
+  - SDWebImage (~> 3.6)
+
+SPEC CHECKSUMS:
+  APAsyncDictionary: b08b66da0ee06aadd811227f43369c94db1308ec
+  APSmartStorage: 41d28f464fa26d4405b2880e7741e358e66d28dc
+  MD5Digest: 058b7162b1fc8c30feddf10bfe66e0565797c45f
+  MMPickerView: e00f2969cb857297adb165b421b2a3284470e686
+  MZAppearance: c88502c0c2345120630c34e09d5ff09e2969ba30
+  MZFormSheetController: 4b58486f5f1562b3905310b02e8dbbb5a0a94128
+  RNActivityView: 4f2f07f7e93792326d09dc8407c2c6e89e3c0147
+  SALQuickTutorial: 28e5a0a9ede8dffdceadb259f1cf55295e57d9ef
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+
+COCOAPODS: 0.33.1

@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/APAsyncDictionary" "${PODS_ROOT}/Headers/APSmartStorage" "${PODS_ROOT}/Headers/MD5Digest" "${PODS_ROOT}/Headers/MMPickerView" "${PODS_ROOT}/Headers/MZAppearance" "${PODS_ROOT}/Headers/MZFormSheetController" "${PODS_ROOT}/Headers/RNActivityView" "${PODS_ROOT}/Headers/SALQuickTutorial" "${PODS_ROOT}/Headers/SDWebImage"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers" -isystem "${PODS_ROOT}/Headers/APAsyncDictionary" -isystem "${PODS_ROOT}/Headers/APSmartStorage" -isystem "${PODS_ROOT}/Headers/MD5Digest" -isystem "${PODS_ROOT}/Headers/MMPickerView" -isystem "${PODS_ROOT}/Headers/MZAppearance" -isystem "${PODS_ROOT}/Headers/MZFormSheetController" -isystem "${PODS_ROOT}/Headers/RNActivityView" -isystem "${PODS_ROOT}/Headers/SALQuickTutorial" -isystem "${PODS_ROOT}/Headers/SDWebImage"
+OTHER_LDFLAGS = -ObjC -framework Accelerate -framework CoreGraphics -framework Foundation -framework ImageIO -framework QuartzCore -framework UIKit
+PODS_ROOT = ${SRCROOT}/Pods

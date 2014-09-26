@@ -1,0 +1,5 @@
+#include "Pods-MMPickerView.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/MMPickerView" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/APAsyncDictionary" "${PODS_ROOT}/Headers/APSmartStorage" "${PODS_ROOT}/Headers/MD5Digest" "${PODS_ROOT}/Headers/MMPickerView" "${PODS_ROOT}/Headers/MZAppearance" "${PODS_ROOT}/Headers/MZFormSheetController" "${PODS_ROOT}/Headers/RNActivityView" "${PODS_ROOT}/Headers/SALQuickTutorial" "${PODS_ROOT}/Headers/SDWebImage"
+OTHER_LDFLAGS = -ObjC ${PODS_MMPICKERVIEW_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
